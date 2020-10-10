@@ -1,5 +1,3 @@
-[![badge][ci]][circle]
-
 [Services]
 ==========
 Useful macOS _[services]_.
@@ -8,13 +6,13 @@ Install
 -------
 Easily install a service with _[Homebrew]_:
 ~~~ sh
-brew tap max-os/services
+brew tap danielbayley/services
 brew cask install #service
 ~~~
 
 [Contribute][guide]
 -------------------
-`git config core.hooksPath hooks` and follow the contribution [guide], or copy and adapt an [existing] cask.
+`git config core.hooksPath .github/hooks` and follow the contribution [guide], or copy and adapt an [existing] cask.
 
 Part of _[maxOS]_.
 
@@ -24,9 +22,6 @@ License
 
 [MIT]:              LICENSE.md
 [Daniel Bayley]:    https://github.com/danielbayley
-
-[ci]:               https://img.shields.io/circleci/project/max-OS/homebrew-services.svg?style=flat-square
-[circle]:           https://circleci.com/gh/max-OS/homebrew-services
 
 [maxos]:            http://max-os.github.io
 [services]:         https://developer.apple.com/macos/human-interface-guidelines/extensions/services
